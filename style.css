@@ -178,6 +178,7 @@ span {
 @media screen and (max-width: 480px) {
   .first_div {
     flex-wrap: wrap;
+    justify-content: center;
   }
   body {
     align-items: center;
@@ -249,5 +250,6 @@ span {
   .preodrer_release_box {
     justify-content: center;
     gap: 60px;
+    padding-top: 20px;
   }
 }
