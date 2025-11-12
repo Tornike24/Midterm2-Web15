@@ -109,6 +109,10 @@ body {
   padding-left: 60px;
 }
 
+.photo_div {
+  display: flex;
+  gap: 20px;
+}
 .mechanical_h1 {
   font-size: 32px;
   color: #162542;
@@ -196,8 +200,7 @@ span {
   }
 
   body {
-    
-        padding: 20px 5px 20px 5px;
+    padding: 20px 5px 20px 5px;
   }
 
   .footer_p {
@@ -220,9 +223,31 @@ span {
   .keyboard_img {
     width: 372px;
     height: 331px;
-    margin-top: 40px;
+    margin: auto;
   }
   .first_main_div {
     margin-bottom: 20px;
+  }
+
+  .second_div_text_box {
+    padding: 0;
+  }
+
+  .mechanical_h1 {
+    text-align: center;
+  }
+
+  .mechanical_p {
+    text-align: center;
+  }
+
+  .photo_div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .preodrer_release_box {
+    justify-content: center;
+    gap: 60px;
   }
 }
