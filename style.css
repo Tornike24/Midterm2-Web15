@@ -176,6 +176,7 @@ span {
   }
   body {
    align-items: center; 
+   overflow-x: hidden;
   }
   .last_box {
     align-items: center;
