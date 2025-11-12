@@ -201,4 +201,22 @@ span {
     padding-bottom: 10px;
   }
 
+  .second_div {
+    flex-wrap: wrap;
+  }
+
+ .second_div_second_img {
+width: 220px;
+height: 193px;
+  }
+.second_div_first_img {
+    width: 129px;
+    height: 193px;
+}
+  
+.keyboard_img {
+    width: 372px;
+    height: 331px;
+}
+
 }
