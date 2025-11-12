@@ -20,6 +20,7 @@ body {
   height: 48px;
   width: 100%;
   margin-bottom: 70px;
+  align-items: center;
 }
 .header_p_box {
   background-color: #e8eff2;
@@ -175,8 +176,8 @@ span {
     flex-wrap: wrap;
   }
   body {
-   align-items: center; 
-   overflow-x: hidden;
+    align-items: center;
+    overflow-x: hidden;
   }
   .last_box {
     align-items: center;
@@ -195,7 +196,8 @@ span {
   }
 
   body {
-    padding: 0;
+    
+        padding: 20px 5px 20px 5px;
   }
 
   .footer_p {
@@ -204,21 +206,23 @@ span {
 
   .second_div {
     flex-wrap: wrap;
-    padding-top: 20px;
   }
 
- .second_div_second_img {
-width: 220px;
-height: 193px;
+  .second_div_second_img {
+    width: 220px;
+    height: 193px;
   }
-.second_div_first_img {
+  .second_div_first_img {
     width: 129px;
     height: 193px;
-}
-  
-.keyboard_img {
+  }
+
+  .keyboard_img {
     width: 372px;
     height: 331px;
-}
-
+    margin-top: 40px;
+  }
+  .first_main_div {
+    margin-bottom: 20px;
+  }
 }
