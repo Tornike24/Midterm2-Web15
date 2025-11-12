@@ -223,7 +223,7 @@ span {
   .keyboard_img {
     width: 372px;
     height: 331px;
-    margin: auto;
+    margin: 40px auto 0 auto;
   }
   .first_main_div {
     margin-bottom: 20px;
