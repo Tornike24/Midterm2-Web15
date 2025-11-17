@@ -125,12 +125,33 @@ body {
   color: #162542;
   font-weight: 900;
   line-height: 36px;
+  text-align: center;
 }
 
 .mechanical_p {
   font-size: 16px;
   color: #7b8bad;
   font-weight: 500;
+  text-align: center;
+}
+
+.bitmap_div {
+  max-width: 245px;
+  max-height: 400px;
+}
+
+.second_img_box {
+  max-width: 445px;
+  max-height: 400px;
+}
+
+.second_div_second_img {
+  width: 100%;
+  height: 100%;
+}
+.second_div_first_img {
+  width: 100%;
+  height: 100%;
 }
 
 .third_div {
@@ -282,14 +303,14 @@ span {
     flex-wrap: wrap;
   }
 
-  .second_div_second_img {
+  /* .second_div_second_img {
     width: 220px;
     height: 193px;
   }
   .second_div_first_img {
     width: 129px;
     height: 193px;
-  }
+  } */
 
   .keyboard_img {
     width: 372px;
